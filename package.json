@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^1.41.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.3",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemailer": "^7.0.5",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.10"
+  },
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "my hostel profile app",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node src/server.js",
+    "dev": "cross-env NODE_ENV=development nodemon src/server.js"
+  },
+  "author": "Damian",
+  "license": "ISC"
+}
